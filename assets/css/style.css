@@ -24,15 +24,14 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #076b7cb7;
-    margin: 10vh;
-    padding: 5px;
+    margin: 16px;
+    padding:10px;
+    display: flex;
     font-family: 'Open sans', sans-serif;
     font-size: 1.3em;
     line-height: 1.5em;
-    display: flex;
     justify-content: center;
     align-items: center;
-    height: max-content;
 }
 
 .container {
