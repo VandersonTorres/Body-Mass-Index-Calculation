@@ -68,7 +68,7 @@ form button:hover {
 
 .table {
     table-layout: auto;
-    width: 48vh;
+    width: 50vh;
     white-space: nowrap;
     margin: 10px;
     border: groove 1px #111111;
