@@ -68,7 +68,7 @@ form button:hover {
 
 .table {
     table-layout: auto;
-    width: 50vh;
+    width: auto;
     white-space: nowrap;
     margin: 10px;
     border: groove 1px #111111;
@@ -80,11 +80,6 @@ form button:hover {
     text-align: justify;
     font-size: smaller;
     padding: 2px;
-}
-
-.index {
-    border-right: #111111 2px solid;
-    padding-right: 50px;
 }
 
 .result-true {
