@@ -13,9 +13,9 @@
 @media (min-widht: 500px) and (max-width: 1024px){
 	* {
 		box-sizing: border-box;
-        margin: 16px;
+        	margin: 16px;
 		padding: 10px;
-    }
+    	}
 }
 
 body {
