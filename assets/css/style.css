@@ -36,8 +36,7 @@ body {
 
 .container {
     height: fit-content;
-    max-width: max-content;
-    margin: 30px;
+    box-shadow: rgba(0, 0, 0, 0.747) 0px 5px 10px;
     background-color: #ffffffbb;
     padding: 20px;
 }
