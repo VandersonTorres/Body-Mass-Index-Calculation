@@ -48,7 +48,6 @@ form input {
 }
 
 form input:focus{
-    outline: 1px solid #000000bd;
     transform:translate(10px);
 }
 
