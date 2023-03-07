@@ -68,8 +68,8 @@ form button:hover {
 
 .table {
     table-layout:fixed;
-    width: auto;
-    word-wrap:break-word;
+    width: 48vh;
+    white-space: nowrap;
     margin: 10px;
     border: groove 1px #111111;
     border-radius: 10px;
