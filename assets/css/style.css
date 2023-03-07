@@ -82,11 +82,6 @@ form button:hover {
     padding: 2px;
 }
 
-.index {
-    border-right: #111111 2px solid;
-    padding-right: 50px;
-}
-
 .result-true {
     background-color: rgba(2, 78, 25, 0.699);
     padding: 5px;
