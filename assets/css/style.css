@@ -67,7 +67,7 @@ form button:hover {
 }
 
 .table {
-    width: auto;
+    white-space: nowrap;
     margin: 10px;
     border: groove 1px #111111;
     border-radius: 10px;
