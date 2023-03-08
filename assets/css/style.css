@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-@media screen and (max-width: 1200px){
-	.container {
-		width: 40%;
-    }
-}
-
-@media screen and (max-width: 600px){
-	.container {
-		width: 90%;
-    }
-}
-
 body {
     background-image: url('https://img.freepik.com/fotos-gratis/conceito-de-fitness-com-estetoscopio_23-2147692005.jpg?w=2000');
     background-size: auto;
