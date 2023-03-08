@@ -1,104 +1,138 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-:root {
-    --primary-color: rgb(44, 41, 41);
-}
-
-* {
-    box-sizing: border-box;
-    outline: 0;
-    border-radius: 10px;
-}
-
-@media (min-widht: 500px) and (max-width: 1024px){
+@media screen and (max-width: 1200px){
 	.container {
-		box-sizing: border-box;
-        	margin: 16px;
-		padding: 10px;
+		width: 40%;
+    }
+}
+
+@media screen and (max-width: 600px){
+	.container {
+		width: 90%;
     }
 }
 
 body {
     background-image: url('https://img.freepik.com/fotos-gratis/conceito-de-fitness-com-estetoscopio_23-2147692005.jpg?w=2000');
-    background-size: cover;
+    background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #076b7cb7;
-    margin: 16px;
-    padding:10px;
     display: flex;
     font-family: 'Open sans', sans-serif;
     font-size: 1.3em;
     line-height: 1.5em;
     justify-content: center;
     align-items: center;
+    text-align: justify;
+}
+
+h1 {
+    text-align: justify;
+    padding-left: 20px;
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    flex-flow:column;
     box-sizing: border-box;
     margin: 16px;
-    height: fit-content;
+    width: auto;
+    height: auto;
     box-shadow: rgba(0, 0, 0, 0.747) 0px 5px 10px;
     background-color: #ffffffbb;
     padding: 20px;
-}
-
-form input, form label, form button {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-form input {
-    font-size: 24px;
-    height: 50px;
-    padding: 0 20px;
-    border: 0;
-    border-bottom: 5px solid #000000bd;
-}
-
-form input:focus{
-    transform:translate(10px);
-}
-
-form button {
-    border: none;
-    background: rgba(13, 13, 68, 0.726);
-    color: #ffffff6b;
-    font-size: 18px;
-    font-weight: 700;
-    height: 50px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: rgb(13, 13, 68);
+    justify-content: space-around;
+    border-radius: 20px;
 }
 
 .table {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
     table-layout: auto;
     width: auto;
     white-space: nowrap;
-    margin: 10px;
+    margin: 20px;
+    padding: 10px;
     border: groove 1px #111111;
     border-radius: 10px;
     border-bottom: 5px solid #000000bd;
     border-right: 5px solid #000000bd;
-    justify-content: right;
+    justify-content:baseline;
     align-items: flex-end;
     text-align: justify;
     font-size: smaller;
-    padding: 2px;
+}
+
+#execution {
+    width: auto;
+    height: auto;
+    text-align: justify;
+    margin: 20px;
+    padding: 10px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    flex-flow:column;
+    box-sizing: border-box;
+}
+
+
+#form input, label, button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#form input {
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 0;
+    border-bottom: 3px solid #000000bd;
+    border-right: 3px solid #000000bd;
+}
+
+#form input:focus{
+    transition: 0.2s;
+    transform: scale(1.02);
+    outline: 0;
+}
+
+#form button {
+    width: 104%;
+    padding: 5px;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    background: rgba(13, 13, 68, 0.726);
+    color: #fffffff3;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    
+}
+
+#form button:hover {
+    background-color: rgb(13, 13, 68);
 }
 
 .result-true {
     background-color: rgba(2, 78, 25, 0.699);
-    padding: 5px;
+    padding: 5px 10px;
     font-weight: bold;
+    border-radius: 10px;
 }
 
 .result-false {
     background-color: rgba(122, 6, 6, 0.699);
-    padding: 5px;
+    padding: 5px 10px;
     font-weight: bold;
+    border-radius: 10px;
 }
