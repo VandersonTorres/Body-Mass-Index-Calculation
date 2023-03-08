@@ -37,7 +37,7 @@ function myEscope() {                                          // Function of no
 
     function situationIMC(imc) {                        // To verify weight situation
         const situation = [
-            "Você está abaixo do peso!", "Você está com um bom peso!",
+            "Você está abaixo do peso!", "Você está com um peso normal!",
             "Você está com sobrepeso!", "Você está com obesidade grau 1!",
             "Você está com obesidade grau 2!", "Você está com obesidade grau 3!",
         ];
