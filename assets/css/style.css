@@ -11,9 +11,9 @@
 }
 
 @media (min-widht: 500px) and (max-width: 1024px){
-	* {
+	.container {
 		box-sizing: border-box;
-        margin: 16px;
+        	margin: 16px;
 		padding: 10px;
     }
 }
@@ -35,6 +35,8 @@ body {
 }
 
 .container {
+    box-sizing: border-box;
+    margin: 16px;
     height: fit-content;
     box-shadow: rgba(0, 0, 0, 0.747) 0px 5px 10px;
     background-color: #ffffffbb;
