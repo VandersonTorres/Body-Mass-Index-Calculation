@@ -61,10 +61,11 @@ h1 {
     text-align: left;
     margin: 0 20px;
     padding: 10px;
+    white-space: nowrap;
 }
 
 #execution .img  {
-    padding-left: 20px;
+    white-space: nowrap;
 }
 
 #form {
