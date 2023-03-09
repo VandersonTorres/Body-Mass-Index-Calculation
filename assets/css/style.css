@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+@media screen and (max-width: 1200px){
+	.container {
+		margin: 20px;
+    }
+}
+
 body {
     background-image: url('https://img.freepik.com/fotos-gratis/conceito-de-fitness-com-estetoscopio_23-2147692005.jpg?w=2000');
     background-size: cover;
@@ -59,7 +65,7 @@ h1 {
     width: auto;
     height: auto;
     text-align: justify;
-    margin: 20px;
+    margin: 0 20px;
     padding: 10px;
 }
 
@@ -113,20 +119,33 @@ h1 {
 
 .result-true {
     background-color: rgba(2, 78, 25, 0.699);
+    color: #ffff;
     padding: 5px 10px;
     font-weight: bold;
+    font-size: smaller;
     border-radius: 10px;
+    text-align: center;
 }
 
 .result-false {
     background-color: rgba(122, 6, 6, 0.699);
+    color: #ffff;
     padding: 5px 10px;
     font-weight: bold;
+    font-size: smaller;
     border-radius: 10px;
+    text-align: center;
 }
 
-@media screen and (max-width: 1200px){
-	.container {
-		margin: 20px;
-    }
+#ideal-weight {
+    background-color: rgba(255, 255, 255, 0.705);
+    padding: 5px 5px;
+    font-weight: bold;
+    font-size: smaller;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hide {
+    display: none;
 }
