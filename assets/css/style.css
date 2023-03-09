@@ -64,6 +64,10 @@ h1 {
     white-space: nowrap;
 }
 
+#execution h4 {
+    text-align: center;
+}
+
 #execution .img  {
     white-space: nowrap;
 }
@@ -147,4 +151,11 @@ h1 {
 
 .hide {
     display: none;
+}
+
+@media screen and (max-width: 850px) {
+    .container {
+        flex-direction: column;
+        margin: 16px;
+    }
 }
