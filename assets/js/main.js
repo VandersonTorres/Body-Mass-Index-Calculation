@@ -1,4 +1,4 @@
-function myEscope() {                                    // Function of not interviewing at Global Escope
+function myEscope() {                                   // Function of not interviewing at Global Escope
 
     /* IMC = Índice de Massa Corporal (Body Mass Index) */
 
@@ -16,14 +16,17 @@ function myEscope() {                                    // Function of not inte
         const inputWeight = document.querySelector(".weight");
         const inputHeight = document.querySelector(".height");
         const weight = Number(inputWeight.value);
-        const height = Number(inputHeight.value);
+        let height = Number(inputHeight.value);
+        if (height >= 3) {
+            height /= 100;
+        };
 
-        if (!weight) {                                   // Weight Value Unexpected
+        if (!weight || weight <= 0) {                   // Weight Value Unexpected
             let msg = "Peso Inválido!";
             setResult(msg, false);
             return;
         }
-        if (!height) {                                   // Height Value Unexpected
+        if (!height || height <= 0) {                   // Height Value Unexpected
             let msg = "Altura Inválida!";
             setResult(msg, false);
             return;
