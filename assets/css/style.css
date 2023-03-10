@@ -121,7 +121,7 @@ h1 {
 .result-true {
     background-color: rgba(2, 78, 25, 0.699);
     color: #ffff;
-    margin: 2px;
+    margin: 5px;
     padding: 2px;
     font-weight: bold;
     font-size: smaller;
@@ -132,7 +132,7 @@ h1 {
 .result-false {
     background-color: rgba(122, 6, 6, 0.699);
     color: #ffff;
-    margin: 2px;
+    margin: 5px;
     padding: 2px;
     font-weight: bold;
     font-size: smaller;
@@ -142,7 +142,7 @@ h1 {
 
 #ideal-weight {
     background-color: rgba(255, 255, 255, 0.705);
-    margin: 2px;
+    margin: 5px;
     padding: 2px;
     font-weight: bold;
     font-size: smaller;
