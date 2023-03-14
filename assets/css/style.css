@@ -2,8 +2,8 @@
 
 body {
     background-image: url('https://img.freepik.com/fotos-gratis/conceito-de-fitness-com-estetoscopio_23-2147692005.jpg?w=2000');
-    background-size: contain;
-    background-repeat: round;
+    background-size: cover;
+    background-repeat: space;
     background-color: #076b7cb7;
     background-clip: content-box;
     display: flex;
@@ -159,8 +159,5 @@ h1 {
 	.container {
 		box-sizing: border-box;
         margin: 16px;
-    }
-    body {
-        background-position: center;
     }
 }
