@@ -160,4 +160,7 @@ h1 {
 		box-sizing: border-box;
         margin: 16px;
     }
+    body {
+        background-position: center;
+    }
 }
