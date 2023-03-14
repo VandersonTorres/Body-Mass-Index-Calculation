@@ -13,6 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: justify;
+    height: fit-content;
 }
 
 h1 {
