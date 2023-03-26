@@ -11,7 +11,7 @@
 
 <body>
     <div class="container">
-        <h1 class="title"></h1>
+        <h1 class="title">Tabela IMC</h1>
 
         <div class="table">
             <table>
@@ -54,17 +54,20 @@
             </h4>
             <form action="" method="post" id="form">
                 <label for="peso">Peso (kg):</label>
-                <input type="text" class="weight" placeholder="Exemplo: 70.5" />
+                <input type="text" class="weight" placeholder="Exemplo: 70.5" required/>
         
                 <label for="altura">Altura (m):</label>
-                <input type="text" class="height" placeholder="Exemplo: 1.76" />
+                <input type="text" class="height" placeholder="Exemplo: 1.76" required/>
         
                 <button type="submit">Calcular</button>
             </form>
         </div>
 
         <div class="result"></div>
-        <div id="ideal-weight"></div>
+        <button class="info-weight hide">Ver peso máximo recomendado</button>
+        <div id="ideal-weight" class="hide"></div>
+        <div id="liquid" class="hide"></div>
+        <div id="kcal" class="hide"></div>
     </div>
     
     <script src="./assets/js/main.js"></script>

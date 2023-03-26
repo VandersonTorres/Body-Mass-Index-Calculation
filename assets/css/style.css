@@ -8,7 +8,7 @@ body {
     background-clip: content-box;
     display: flex;
     font-family: 'Open sans', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.1em;
     line-height: 1.5em;
     justify-content: center;
     align-items: center;
@@ -94,29 +94,23 @@ h1 {
     border-right: 3px solid #000000bd;
 }
 
-#form input:focus{
-    transition: 0.2s;
-    transform: scale(1.02);
-    outline: 0;
-}
-
 #form button {
-    width: 104%;
+    width: fit-content;
     padding: 5px;
     justify-content: center;
     border: none;
     border-radius: 10px;
-    background: rgba(13, 13, 68, 0.726);
+    background: rgba(32, 32, 32, 0.726);
     color: #fffffff3;
     font-size: 18px;
     font-weight: 700;
     height: 50px;
     cursor: pointer;
-    
+    margin: auto;
 }
 
 #form button:hover {
-    background-color: rgb(13, 13, 68);
+    background-color: rgb(36, 36, 36);
 }
 
 .result-true {
@@ -149,6 +143,45 @@ h1 {
     font-size: smaller;
     border-radius: 10px;
     text-align: center;
+}
+
+#liquid {
+    background-color: rgba(255, 255, 255, 0.705);
+    margin: 5px 20px;
+    padding: 2px;
+    font-weight: bold;
+    font-size: smaller;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#kcal {
+    background-color: rgba(255, 255, 255, 0.705);
+    margin: 5px 20px;
+    padding: 2px;
+    font-weight: bold;
+    font-size: smaller;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.info-weight {
+    width: fit-content;
+    margin: 5px auto;
+    padding: 5px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background: rgba(32, 32, 32, 0.726);
+    color: #fffffff3;
+    font-size: 15px;
+    font-weight: 700;
+    height: 40px;
+    cursor: pointer;
+}
+
+.info-weight:hover {
+    background-color: rgb(36, 36, 36);
 }
 
 .hide {
