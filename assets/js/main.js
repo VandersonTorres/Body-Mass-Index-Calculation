@@ -101,17 +101,17 @@ function myEscope() {                                   // Function of not inter
         const weight = Number(inputWeight.value);
         let height = Number(inputHeight.value);
 
-        if (height >= 3) {
+        if (height > 3) {
             height /= 100;
         };
 
-        if (weight <= 0) {                   // Weight Value Unexpected
+        if (!weight || weight <= 0) {                   // Weight Value Unexpected
             let msg = "Peso Inválido!";
             setResult(msg, false);
             return;
         };
 
-        if (height <= 0) {                   // Height Value Unexpected
+        if (!height || height <= 0) {                   // Height Value Unexpected
             let msg = "Altura Inválida!";
             setResult(msg, false);
             return;
